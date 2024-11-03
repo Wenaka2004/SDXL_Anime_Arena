@@ -43,10 +43,16 @@
 ![ca711e660aaf26fcfa2bb2f7f9384b4c](https://github.com/user-attachments/assets/37f3aeaf-64e6-492c-b5d2-8dda3757a24a)
 在generate_image_webui.py中将此处修改为参与评测的模型的列表
 
+**按此结构创建images文件夹**
+```bash
+images/
+├── checkpoint-e8_s253312.safetensors/
+│   └── [生成的图片文件].png
+└── noobaiXLNAIXL_epsilonPred075.safetensors/
+    └── [生成的图片文件].png
+```
 
-1. 运行 
-
-main.py
+1. 运行 main.py
 
    ```bash
    python main.py
